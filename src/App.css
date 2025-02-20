@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Chessboard styles */
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 5px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.light {
+  background-color: #f0d9b5;
+}
+
+.dark {
+  background-color: #b58863;
+}
+
+.piece {
+  user-select: none;
+}
+
+/* Highlighted legal moves */
+.square.highlight {
+  background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+/* Sidebar styles */
+.sidebar {
+  text-align: left;
+  max-width: 250px;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
