@@ -1,12 +1,11 @@
 # Chess Game
 
-![Chess Game](https://upload.wikimedia.org/wikipedia/commons/0/09/ChessSet.jpg)
+
 
 ## Overview
 This is a chess game project featuring a custom chess engine built with Python and a frontend developed using JavaScript. The goal is to create an interactive chess platform with AI capabilities and multiplayer support.
 
 ## Features
-- 🏆 **Custom Chess Engine** written in Python
 - 🎨 **Frontend in JavaScript** for a responsive UI
 - 🤖 **AI Bot** for single-player mode (upcoming)
 - 🌐 **Multiplayer Mode** for online play (planned)
@@ -14,10 +13,6 @@ This is a chess game project featuring a custom chess engine built with Python a
 - 📜 **PGN (Portable Game Notation) Support** (future feature)
 
 ## Tech Stack
-### Backend:
-- Python
-- Flask/FastAPI (Planned for API)
-- Chess libraries (e.g., `python-chess`)
 
 ### Frontend:
 - JavaScript (Vanilla/React, TBD)
