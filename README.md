@@ -7,7 +7,7 @@ This is a chess game project featuring a custom chess engine built with Python a
 
 ## Features
 - 🎨 **Frontend in JavaScript** for a responsive UI
-- 🤖 **AI Bot** for single-player mode (upcoming)
+- 🤖 **AI Bot** for single-player mode 
 - 🌐 **Multiplayer Mode** for online play (planned)
 - 🏁 **Move Validation and Game Logic**
 - 📜 **PGN (Portable Game Notation) Support** (future feature)
