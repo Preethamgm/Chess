@@ -56,9 +56,6 @@ npm start  # If using React or a similar framework
 3. Commit changes and push
 4. Submit a pull request
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 - `python-chess` for game logic
 - Open-source chess UI inspirations
